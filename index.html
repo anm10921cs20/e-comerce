@@ -62,7 +62,7 @@
     </div>
     <br><br><br>
     <!--main content container-->
-    <div class="main-container container">
+    <div id="shop-products" class="main-container container">
         <br>
         <h1 class="h3 products-heading">Products</h1>
         <br><br>
@@ -166,16 +166,56 @@
     <div class="about-us container">
          <h1 class="h3 products-heading">About Us</h1><br><br>
         <div class="about-us-container">
-            <div class="img-container">
-                <img src="" alt="">
-            </div>
-            <div class="details-container">
-
+            <!--first about container for image-->
+            <div class="image-container">
+                <div class="image-glassmorphism">
+                    <h2 class="heading">About Us</h2>
+                    <h3 class="heading-name">Shop Easy</h3>
+                    <p class="heading-paragraph">You One-Stop Shop For The Best Audio Gadgets This Website is Right Choice For Customer</p>
+                    <button class="heading-button"><a href="#shop-products">Shop Now</a></button>
+                </div>
             </div>
                 
         </div>
     </div>
-   
+    <br><br><br><br><br>
+    <!--contact us container-->
+   <div class="contact-us">
+    <h1 class="h3 products-heading">Contact Us</h1><br><br>
+
+    <br>
+    <!--insert map details main address-->
+    <div class="map-address">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18696.868337374366!2d79.75616890971939!3d11.750885723500286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a549888444e5d9d%3A0x6aa2c2d991f57236!2sCuddalore%2C%20Tamil%20Nadu!5e1!3m2!1sen!2sin!4v1749299925739!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div><br><br>
+    <div class="get-in-touch container">
+    <h1 class="h3 products-heading">Get In Touch</h1>
+    <br> <p class="text-center text-danger"> Please Tell Your Shooping Query</p><br>
+    <div class="name-form">
+       
+        <form action="https://api.web3forms.com/submit" id="form" method="post">
+            <input type="hidden" name="subject" value="User Query Shop Easy Site">
+              <input type="hidden" name="access_key" value="27b60d85-5a26-4e30-a907-ac88009eb4fc">
+              <input type="hidden" name="redirect" value="https://e-comerce-woad.vercel.app/">
+              <input type="hidden" name="from_name" value="Easy Shop">
+            <label>
+                Name
+            </label><br>
+            <input type="text" class="name" name="name" id="name" placeholder="Name"><br><br>
+            <label>
+                Email Address
+            </label><br> 
+            <input type="email" class="email" id="email"  name="email" placeholder="Email Address"><br><br>
+            <label>Message</label><br>
+            <textarea cols="24" rows="1" name="message" id="message" placeholder="Plese Tell"></textarea><br><br>
+            <button class="btn btn-danger " onclick="alert('Thank You')" id="button-form">Send</button>
+            <br>
+            <br>
+            <p id="message-alert">dd</p>
+        </form>
+    </div>
+    </div>
+   </div>
 
 </body>
 <!--external javascript file insert-->
