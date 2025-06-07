@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Easy E-commerce</title>
+
+    <!--bootstrap offline file insert-->
+    <link rel="stylesheet" type="text/css" href="./bootstrap-5.3.5-dist/css/bootstrap.min.css">
+
+    <!--fontawesome cdn link online -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--website logo add-->
+    <link rel="icon" type="icon/png" href="./images/logo.png">
+
+    <!--External style sheet insert-->
+    <link rel="stylesheet" type="text/css" href="./style.css">
+
+</head>
+
+<body>
+    <!--nav bar container-->
+    <div class="nav-container container-fluid-lg ">
+        <!--nav bar -->
+        <div class="nav-bar">
+            <!--nav bar heading container-->
+            <div class="nav-bar_header-container">
+                <h1 class="h4 text-light nav-bar_heading-">ShopEasy</h1>
+                <p class="text-light nav-bar_heading-paragraph">You one-stop shop for the best audio gadgets</p>
+            </div>
+            <i onclick="openbars()" id="fa-bars" class="fa-solid fa-bars"></i><i onclick="closebars()" id="fa-close" class="fas fa-close"></i>
+            <!--nav bar menu-->
+            <ul class="nav-menu">
+                <!--close-->
+               
+                <!--nav list item-->
+                <li><a href="#">Home</a></li>
+                <button id="button-xmark" class="x-mark fa-solid fa-xmark"></button>
+                <li class="products" onclick="productclose()"><a href="#">Proudcts <i class="fas fa-chevron-down"></i>
+                </a>
+                    <!--dropdown menu-->
+                    <ul class="dropdown" id="dropdown">
+                        <!--dropdown menu list item-->
+                        <li><a href="#">wireless Earbuds</a></li>
+                        <li><a href="#">Bluetooth Speaker</a></li>
+                        <li><a href="#">Gaming Headset</a></li>
+                        <li><a href="#">Studio Microphone</a></li>
+                        <li><a href="#">Pink Gaming Headphones</a></li>
+                        <li><a href="#">Noise Cancelling Headphones</a></li>
+                        <li><a href="#">Wireless Neckband</a></li>
+                        <li><a href="#">boAt Wireless Headphones</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+    <br><br><br>
+    <!--main content container-->
+    <div class="main-container container">
+        <br>
+        <h1 class="h3 products-heading">Products</h1>
+        <br><br>
+        <!--products items container-->
+        <div class="main-container__products container-xxl container-xl  container-fluid">
+            <div class="main-container__products-list">
+                <!--container details of products-->
+                <img src="./images/-original-imagtc44nk4b3hfg-removebg-preview.png" height="230px" width="200px"
+                    class=" d-block" alt=""><br>
+
+                <h3 class="h5 text-center text-dark">Wirelsess Earbuds</h3>
+                <p class="text-center main-container__product-list_paragraph">Noise-cancelling earbuds with deep bass
+                    and long battery life</p>
+
+                <p class="text-center price">$39.99</p>
+                <a class="button" id="airbuds">Add to Cart</a>
+            </div>
+            <div class="main-container__products-list">
+                <!--container details of products-->
+                <img src="./images/-original-imah2d55jusy9p9t-removebg-preview.png" height="230px" width="230px"
+                    class=" d-block" alt=""><br>
+
+                <h3 class="h5 text-center text-dark">Bluetooth Speaker</h3>
+                <p class="text-center main-container__product-list_paragraph">Poartable.poweful Speaker for your home or outdoor adventure</p>
+
+                <p class="text-center price">$49.99</p>
+                <a class="button">Add to Cart</a>
+            </div>
+            <div class="main-container__products-list">
+                <!--container details of products-->
+                <img src="./images/music-studio-gaming-online-classes-with-other-voice-cancellation-original-imaha6yzbxqh3xzg-removebg-preview.png" height="230px" width="200px"
+                    class=" d-block" alt=""><br>
+
+                <h3 class="h5 text-center text-dark">Gaming Headset</h3>
+                <p class="text-center main-container__product-list_paragraph">High-quality surround headset with built-in microphone</p>
+
+                <p class="text-center price">$59.99</p>
+                <a class="button">Add to Cart</a>
+            </div>
+            <div class="main-container__products-list">
+                <!--container details of products-->
+                <img src="./images/professional-bm-800-condenser-microphone-set-for-live-streaming-original-imahcavjbb6kncfd-removebg-preview.png" height="230px" width="200px"
+                    class=" d-block" alt=""><br>
+
+                <h3 class="h5 text-center text-dark">Studio Microphone</h3>
+                <p class="text-center main-container__product-list_paragraph">Perfect for streaming, podcasting, abd studio recording setups</p>
+
+                <p class="text-center price">$79.99</p>
+                <a class="button">Add to Cart</a>
+            </div>
+            <div class="main-container__products-list">
+                <!--container details of products-->
+                <img src="./images/super-bass-with-48hrs-playtime-low-latency-up-to-40ms-dual-original-imahbzkp2jyg5dzc-removebg-preview.png" height="230px" width="200px"
+                    class=" d-block" alt=""><br>
+
+                <h3 class="h5 text-center text-dark">Pink Gaming Headphone</h3>
+                <p class="text-center main-container__product-list_paragraph">USB gaming headphones with mic, surround sound and LED lighting</p>
+
+                <p class="text-center price">$69.99</p>
+                <a class="button">Add to Cart</a>
+            </div>
+            <div class="main-container__products-list">
+                <!--container details of products-->
+                <img src="./images/pro-tech-134-bigpassport-original-imagzyprkkrgbhkt-removebg-preview.png" height="230px" width="200px"
+                    class=" d-block" alt=""><br>
+
+                <h3 class="h5 text-center text-dark">Noise Cancel Headphone</h3>
+                <p class="text-center main-container__product-list_paragraph">Top-tier ANC technology with up to 30 hours of battery life</p>
+
+                <p class="text-center price">$99.99</p>
+                <a class="button">Add to Cart</a>
+            </div>
+            <div class="main-container__products-list">
+                <!--container details of products-->
+                <img src="./images/-original-imagduskzq2my6td-removebg-preview.png" height="230px" width="200px"
+                    class=" d-block" alt=""><br>
+
+                <h3 class="h5 text-center text-dark">Wirelsess Neckband</h3>
+                <p class="text-center main-container__product-list_paragraph">Comfort-fit neckband with fast charging and dual paring support</p>
+
+                <p class="text-center price">$34.99</p>
+                <a class="button">Add to Cart</a>
+            </div>
+            <div class="main-container__products-list">
+                <!--container details of products-->
+                <img src="./images/boat_airpods-removebg-preview.png" height="230px" width="200px"
+                    class=" d-block" alt=""><br>
+
+                <h3 class="h6 text-center text-dark">boAt Wireless Headphone</h3>
+                <p class="text-center main-container__product-list_paragraph">Stylish wireless headphones with 40mm drivers and 15H playback</p>
+
+                <p class="text-center price">$44.99</p>
+                <a class="button">Add to Cart</a>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <!--about us container-->
+
+    <div class="about-us container">
+         <h1 class="h3 products-heading">About Us</h1><br><br>
+        <div class="about-us-container">
+            <div class="img-container">
+                <img src="" alt="">
+            </div>
+            <div class="details-container">
+
+            </div>
+                
+        </div>
+    </div>
+   
+
+</body>
+<!--external javascript file insert-->
+<script src="app.js">
+
+</script>
+
+</html>
