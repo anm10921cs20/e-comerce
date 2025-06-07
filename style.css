@@ -199,6 +199,176 @@ body {
         border-radius: 4px;
         cursor: pointer;
     }
+    /* about us container */
+
+    .about-us {
+        height: 250px;
+    }
+
+    .about-us-container {
+        width: 100%;
+        height: 250px;
+        background-color: #fff;
+        box-shadow: -5px -5px 9px #d2d2d2,
+            5px 5px 9px #d2d2d2;
+        border-radius: 6px;
+    }
+
+    .image-container {
+        background-image: url('https://img.freepik.com/free-photo/about-as-service-contact-information-concept_53876-138509.jpg?t=st=1749294221~exp=1749297821~hmac=1d108076552eca70aaa331e0d8c5cb027b205520c509f8dc49df608c44216052&w=1380');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 250px;
+    }
+
+    .image-glassmorphism {
+        background-color: #00000088;
+        height: 250px;
+    }
+
+    .heading {
+        text-align: center;
+        padding: 10px;
+        color: #fff;
+        text-shadow: 1px 2px 3px #000;
+    }
+    .heading-name
+    {
+        text-align: start;
+        padding-left: 10px;
+        color: #fff;
+    }
+    .heading-paragraph
+    {
+        color: #fff;
+        text-align: justify;
+        padding: 10px;
+    }
+    .heading-button
+    {
+        background-color: rgb(62, 179, 62);
+         color: #fff;
+         border: none;  
+        font-weight: 500;
+        padding: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 15%;
+        width: 25%;
+        margin: auto;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    .heading-button>a
+    {
+        color: #fff;
+         font-weight: 500;
+         text-decoration: none;
+    }
+
+    /* contact us container and sub containers */
+
+    .contact-us
+    {
+        height: 1200px;
+    }
+    .get-in-touch
+    {
+        height: 500px;
+        width: 90%;
+        background-color: #fff;
+        box-shadow: -5px -5px 9px #d2d2d2,
+            5px 5px 9px #d2d2d2;
+        border-radius: 6px;
+        padding: 10px;
+    }
+
+    /* form data */
+
+    form
+    {
+        width: 50%;
+        margin: auto;
+    }
+    input,textarea
+    {
+        border: none;
+        border-bottom: #000 1px solid;
+    }
+    input,textarea:focus,
+    input,textarea:hover
+    {
+        outline: none;
+    }
+    
+    /* footer */
+
+    .footer
+    {
+        background-color: var(--bs-primary);
+        height: 100px;
+    }
+    .nav-social-menu
+    {
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        list-style-type: none;
+
+    }
+    .nav-social-menu>li
+    {
+        margin: 0 10px;
+        padding: 10px;
+    }
+     .fa-instagram
+    {
+        color: #fff;
+        background: linear-gradient(115deg, #f9ce34, #ee2a7b, #6228d7);
+        font-size: 21px;
+        padding: 4px 5px;
+        border-radius: 3px;
+    }
+    .fa-facebook
+    {
+        color: #fff;
+        background-color:	#1877F2;  
+        font-size: 21px;
+        padding: 4px 5px;
+        border-radius: 3px;
+       
+    }
+    .fa-youtube
+    {
+        color:  #FF0000;
+        background-color: #fff;
+        font-size: 21px;
+        padding: 4px 5px;
+        border-radius: 3px;
+    }
+    .fa-telegram
+    {
+        color: dodgerblue;
+        background-color: #fff;
+        font-size: 21px;
+        padding: 4px 5px;
+        border-radius: 3px;
+    }
+    .fa-whatsapp
+    {
+        color: #fff;
+        background-color: #25D366;
+        font-size: 21px;
+        padding: 4px 5px;
+        border-radius: 3px;
+    }
+    .content-end
+    {
+        text-align:center;
+        color: #fff;
+    }
 
 
 
@@ -445,6 +615,7 @@ body {
         width: 25%;
         margin: auto;
         border-radius: 4px;
+        cursor: pointer;
     }
     .heading-button>a
     {
@@ -457,7 +628,7 @@ body {
 
     .contact-us
     {
-        height: 2000px;
+        height: 1200px;
     }
     .get-in-touch
     {
@@ -487,7 +658,73 @@ body {
     {
         outline: none;
     }
+    
+    /* footer */
 
+    .footer
+    {
+        background-color: var(--bs-primary);
+        height: 100px;
+    }
+    .nav-social-menu
+    {
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        list-style-type: none;
+
+    }
+    .nav-social-menu>li
+    {
+        margin: 0 10px;
+        padding: 10px;
+    }
+     .fa-instagram
+    {
+        color: #fff;
+        background: linear-gradient(115deg, #f9ce34, #ee2a7b, #6228d7);
+        font-size: 21px;
+        padding: 4px 5px;
+        border-radius: 3px;
+    }
+    .fa-facebook
+    {
+        color: #fff;
+        background-color:	#1877F2;  
+        font-size: 21px;
+        padding: 4px 5px;
+        border-radius: 3px;
+       
+    }
+    .fa-youtube
+    {
+        color:  #FF0000;
+        background-color: #fff;
+        font-size: 21px;
+        padding: 4px 5px;
+        border-radius: 3px;
+    }
+    .fa-telegram
+    {
+        color: dodgerblue;
+        background-color: #fff;
+        font-size: 21px;
+        padding: 4px 5px;
+        border-radius: 3px;
+    }
+    .fa-whatsapp
+    {
+        color: #fff;
+        background-color: #25D366;
+        font-size: 21px;
+        padding: 4px 5px;
+        border-radius: 3px;
+    }
+    .content-end
+    {
+        text-align:center;
+        color: #fff;
+    }
 
 
 
@@ -700,6 +937,176 @@ body {
         padding: 4px;
         border-radius: 4px;
         cursor: pointer;
+    }
+    /* about us container */
+
+    .about-us {
+        height: 250px;
+    }
+
+    .about-us-container {
+        width: 100%;
+        height: 250px;
+        background-color: #fff;
+        box-shadow: -5px -5px 9px #d2d2d2,
+            5px 5px 9px #d2d2d2;
+        border-radius: 6px;
+    }
+
+    .image-container {
+        background-image: url('https://img.freepik.com/free-photo/about-as-service-contact-information-concept_53876-138509.jpg?t=st=1749294221~exp=1749297821~hmac=1d108076552eca70aaa331e0d8c5cb027b205520c509f8dc49df608c44216052&w=1380');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 250px;
+    }
+
+    .image-glassmorphism {
+        background-color: #00000088;
+        height: 250px;
+    }
+
+    .heading {
+        text-align: center;
+        padding: 10px;
+        color: #fff;
+        text-shadow: 1px 2px 3px #000;
+    }
+    .heading-name
+    {
+        text-align: start;
+        padding-left: 10px;
+        color: #fff;
+    }
+    .heading-paragraph
+    {
+        color: #fff;
+        text-align: justify;
+        padding: 10px;
+    }
+    .heading-button
+    {
+        background-color: rgb(62, 179, 62);
+         color: #fff;
+         border: none;  
+        font-weight: 500;
+        padding: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 15%;
+        width: 25%;
+        margin: auto;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    .heading-button>a
+    {
+        color: #fff;
+         font-weight: 500;
+         text-decoration: none;
+    }
+
+    /* contact us container and sub containers */
+
+    .contact-us
+    {
+        height: 1200px;
+    }
+    .get-in-touch
+    {
+        height: 500px;
+        width: 90%;
+        background-color: #fff;
+        box-shadow: -5px -5px 9px #d2d2d2,
+            5px 5px 9px #d2d2d2;
+        border-radius: 6px;
+        padding: 10px;
+    }
+
+    /* form data */
+
+    form
+    {
+        width: 50%;
+        margin: auto;
+    }
+    input,textarea
+    {
+        border: none;
+        border-bottom: #000 1px solid;
+    }
+    input,textarea:focus,
+    input,textarea:hover
+    {
+        outline: none;
+    }
+    
+    /* footer */
+
+    .footer
+    {
+        background-color: var(--bs-primary);
+        height: 100px;
+    }
+    .nav-social-menu
+    {
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        list-style-type: none;
+
+    }
+    .nav-social-menu>li
+    {
+        margin: 0 10px;
+        padding: 10px;
+    }
+     .fa-instagram
+    {
+        color: #fff;
+        background: linear-gradient(115deg, #f9ce34, #ee2a7b, #6228d7);
+        font-size: 21px;
+        padding: 4px 5px;
+        border-radius: 3px;
+    }
+    .fa-facebook
+    {
+        color: #fff;
+        background-color:	#1877F2;  
+        font-size: 21px;
+        padding: 4px 5px;
+        border-radius: 3px;
+       
+    }
+    .fa-youtube
+    {
+        color:  #FF0000;
+        background-color: #fff;
+        font-size: 21px;
+        padding: 4px 5px;
+        border-radius: 3px;
+    }
+    .fa-telegram
+    {
+        color: dodgerblue;
+        background-color: #fff;
+        font-size: 21px;
+        padding: 4px 5px;
+        border-radius: 3px;
+    }
+    .fa-whatsapp
+    {
+        color: #fff;
+        background-color: #25D366;
+        font-size: 21px;
+        padding: 4px 5px;
+        border-radius: 3px;
+    }
+    .content-end
+    {
+        text-align:center;
+        color: #fff;
     }
 
 
@@ -923,6 +1330,176 @@ body {
     .main-container__products-list:hover {
         transform: scale(1.1);
         transition: transform 0.5s ease-in-out;
+    }
+    /* about us container */
+
+    .about-us {
+        height: 250px;
+    }
+
+    .about-us-container {
+        width: 100%;
+        height: 250px;
+        background-color: #fff;
+        box-shadow: -5px -5px 9px #d2d2d2,
+            5px 5px 9px #d2d2d2;
+        border-radius: 6px;
+    }
+
+    .image-container {
+        background-image: url('https://img.freepik.com/free-photo/about-as-service-contact-information-concept_53876-138509.jpg?t=st=1749294221~exp=1749297821~hmac=1d108076552eca70aaa331e0d8c5cb027b205520c509f8dc49df608c44216052&w=1380');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 250px;
+    }
+
+    .image-glassmorphism {
+        background-color: #00000088;
+        height: 250px;
+    }
+
+    .heading {
+        text-align: center;
+        padding: 10px;
+        color: #fff;
+        text-shadow: 1px 2px 3px #000;
+    }
+    .heading-name
+    {
+        text-align: center;
+        padding-left: 10px;
+        color: #fff;
+    }
+    .heading-paragraph
+    {
+        color: #fff;
+        text-align: center;
+        padding: 10px;
+    }
+    .heading-button
+    {
+        background-color: rgb(62, 179, 62);
+         color: #fff;
+         border: none;  
+        font-weight: 500;
+        padding: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 15%;
+        width: 25%;
+        margin: auto;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    .heading-button>a
+    {
+        color: #fff;
+         font-weight: 500;
+         text-decoration: none;
+    }
+
+    /* contact us container and sub containers */
+
+    .contact-us
+    {
+        height: 1200px;
+    }
+    .get-in-touch
+    {
+        height: 500px;
+        width: 90%;
+        background-color: #fff;
+        box-shadow: -5px -5px 9px #d2d2d2,
+            5px 5px 9px #d2d2d2;
+        border-radius: 6px;
+        padding: 10px;
+    }
+
+    /* form data */
+
+    form
+    {
+        width: 50%;
+        margin: auto;
+    }
+    input,textarea
+    {
+        border: none;
+        border-bottom: #000 1px solid;
+    }
+    input,textarea:focus,
+    input,textarea:hover
+    {
+        outline: none;
+    }
+    
+    /* footer */
+
+    .footer
+    {
+        background-color: var(--bs-primary);
+        height: 100px;
+    }
+    .nav-social-menu
+    {
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        list-style-type: none;
+
+    }
+    .nav-social-menu>li
+    {
+        margin: 0 10px;
+        padding: 10px;
+    }
+     .fa-instagram
+    {
+        color: #fff;
+        background: linear-gradient(115deg, #f9ce34, #ee2a7b, #6228d7);
+        font-size: 21px;
+        padding: 4px 5px;
+        border-radius: 3px;
+    }
+    .fa-facebook
+    {
+        color: #fff;
+        background-color:	#1877F2;  
+        font-size: 21px;
+        padding: 4px 5px;
+        border-radius: 3px;
+       
+    }
+    .fa-youtube
+    {
+        color:  #FF0000;
+        background-color: #fff;
+        font-size: 21px;
+        padding: 4px 5px;
+        border-radius: 3px;
+    }
+    .fa-telegram
+    {
+        color: dodgerblue;
+        background-color: #fff;
+        font-size: 21px;
+        padding: 4px 5px;
+        border-radius: 3px;
+    }
+    .fa-whatsapp
+    {
+        color: #fff;
+        background-color: #25D366;
+        font-size: 21px;
+        padding: 4px 5px;
+        border-radius: 3px;
+    }
+    .content-end
+    {
+        text-align:center;
+        color: #fff;
     }
 
 }
@@ -1162,6 +1739,176 @@ body {
     .main-container__products-list:hover {
         transform: scale(1.1);
         transition: transform 0.5s ease-in-out;
+    }
+    /* about us container */
+
+    .about-us {
+        height: 400px;
+    }
+
+    .about-us-container {
+        width: 100%;
+        height: 400px;
+        background-color: #fff;
+        box-shadow: -5px -5px 9px #d2d2d2,
+            5px 5px 9px #d2d2d2;
+        border-radius: 6px;
+    }
+
+    .image-container {
+        background-image: url('https://img.freepik.com/free-photo/about-as-service-contact-information-concept_53876-138509.jpg?t=st=1749294221~exp=1749297821~hmac=1d108076552eca70aaa331e0d8c5cb027b205520c509f8dc49df608c44216052&w=1380');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 400px;
+    }
+
+    .image-glassmorphism {
+        background-color: #00000088;
+        height: 400px;
+    }
+
+    .heading {
+        text-align: center;
+        padding: 10px;
+        color: #fff;
+        text-shadow: 1px 2px 3px #000;
+    }
+    .heading-name
+    {
+        text-align: center;
+        padding-left: 10px;
+        color: #fff;
+    }
+    .heading-paragraph
+    {
+        color: #fff;
+        text-align: center;
+        padding: 10px;
+    }
+    .heading-button
+    {
+        background-color: rgb(62, 179, 62);
+         color: #fff;
+         border: none;  
+        font-weight: 500;
+        padding: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 15%;
+        width: 25%;
+        margin: auto;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    .heading-button>a
+    {
+        color: #fff;
+         font-weight: 500;
+         text-decoration: none;
+    }
+
+    /* contact us container and sub containers */
+
+    .contact-us
+    {
+        height: 1200px;
+    }
+    .get-in-touch
+    {
+        height: 500px;
+        width: 90%;
+        background-color: #fff;
+        box-shadow: -5px -5px 9px #d2d2d2,
+            5px 5px 9px #d2d2d2;
+        border-radius: 6px;
+        padding: 10px;
+    }
+
+    /* form data */
+
+    form
+    {
+        width: 10%;
+        margin: auto;
+    }
+    input,textarea
+    {
+        border: none;
+        border-bottom: #000 1px solid;
+    }
+    input,textarea:focus,
+    input,textarea:hover
+    {
+        outline: none;
+    }
+    
+    /* footer */
+
+    .footer
+    {
+        background-color: var(--bs-primary);
+        height: 100px;
+    }
+    .nav-social-menu
+    {
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        list-style-type: none;
+
+    }
+    .nav-social-menu>li
+    {
+        margin: 0 10px;
+        padding: 10px;
+    }
+     .fa-instagram
+    {
+        color: #fff;
+        background: linear-gradient(115deg, #f9ce34, #ee2a7b, #6228d7);
+        font-size: 21px;
+        padding: 4px 5px;
+        border-radius: 3px;
+    }
+    .fa-facebook
+    {
+        color: #fff;
+        background-color:	#1877F2;  
+        font-size: 21px;
+        padding: 4px 5px;
+        border-radius: 3px;
+       
+    }
+    .fa-youtube
+    {
+        color:  #FF0000;
+        background-color: #fff;
+        font-size: 21px;
+        padding: 4px 5px;
+        border-radius: 3px;
+    }
+    .fa-telegram
+    {
+        color: dodgerblue;
+        background-color: #fff;
+        font-size: 21px;
+        padding: 4px 5px;
+        border-radius: 3px;
+    }
+    .fa-whatsapp
+    {
+        color: #fff;
+        background-color: #25D366;
+        font-size: 21px;
+        padding: 4px 5px;
+        border-radius: 3px;
+    }
+    .content-end
+    {
+        text-align:center;
+        color: #fff;
     }
 
 
@@ -1419,6 +2166,176 @@ body {
     .main-container__products-list:hover {
         transform: scale(1.1);
         transition: transform 0.5s ease-in-out;
+    }
+    /* about us container */
+
+    .about-us {
+        height: 250px;
+    }
+
+    .about-us-container {
+        width: 100%;
+        height: 250px;
+        background-color: #fff;
+        box-shadow: -5px -5px 9px #d2d2d2,
+            5px 5px 9px #d2d2d2;
+        border-radius: 6px;
+    }
+
+    .image-container {
+        background-image: url('https://img.freepik.com/free-photo/about-as-service-contact-information-concept_53876-138509.jpg?t=st=1749294221~exp=1749297821~hmac=1d108076552eca70aaa331e0d8c5cb027b205520c509f8dc49df608c44216052&w=1380');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 250px;
+    }
+
+    .image-glassmorphism {
+        background-color: #00000088;
+        height: 250px;
+    }
+
+    .heading {
+        text-align: center;
+        padding: 10px;
+        color: #fff;
+        text-shadow: 1px 2px 3px #000;
+    }
+    .heading-name
+    {
+        text-align: start;
+        padding-left: 10px;
+        color: #fff;
+    }
+    .heading-paragraph
+    {
+        color: #fff;
+        text-align: justify;
+        padding: 10px;
+    }
+    .heading-button
+    {
+        background-color: rgb(62, 179, 62);
+         color: #fff;
+         border: none;  
+        font-weight: 500;
+        padding: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 15%;
+        width: 25%;
+        margin: auto;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    .heading-button>a
+    {
+        color: #fff;
+         font-weight: 500;
+         text-decoration: none;
+    }
+
+    /* contact us container and sub containers */
+
+    .contact-us
+    {
+        height: 1200px;
+    }
+    .get-in-touch
+    {
+        height: 500px;
+        width: 90%;
+        background-color: #fff;
+        box-shadow: -5px -5px 9px #d2d2d2,
+            5px 5px 9px #d2d2d2;
+        border-radius: 6px;
+        padding: 10px;
+    }
+
+    /* form data */
+
+    form
+    {
+        width: 50%;
+        margin: auto;
+    }
+    input,textarea
+    {
+        border: none;
+        border-bottom: #000 1px solid;
+    }
+    input,textarea:focus,
+    input,textarea:hover
+    {
+        outline: none;
+    }
+    
+    /* footer */
+
+    .footer
+    {
+        background-color: var(--bs-primary);
+        height: 100px;
+    }
+    .nav-social-menu
+    {
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        list-style-type: none;
+
+    }
+    .nav-social-menu>li
+    {
+        margin: 0 10px;
+        padding: 10px;
+    }
+     .fa-instagram
+    {
+        color: #fff;
+        background: linear-gradient(115deg, #f9ce34, #ee2a7b, #6228d7);
+        font-size: 21px;
+        padding: 4px 5px;
+        border-radius: 3px;
+    }
+    .fa-facebook
+    {
+        color: #fff;
+        background-color:	#1877F2;  
+        font-size: 21px;
+        padding: 4px 5px;
+        border-radius: 3px;
+       
+    }
+    .fa-youtube
+    {
+        color:  #FF0000;
+        background-color: #fff;
+        font-size: 21px;
+        padding: 4px 5px;
+        border-radius: 3px;
+    }
+    .fa-telegram
+    {
+        color: dodgerblue;
+        background-color: #fff;
+        font-size: 21px;
+        padding: 4px 5px;
+        border-radius: 3px;
+    }
+    .fa-whatsapp
+    {
+        color: #fff;
+        background-color: #25D366;
+        font-size: 21px;
+        padding: 4px 5px;
+        border-radius: 3px;
+    }
+    .content-end
+    {
+        text-align:center;
+        color: #fff;
     }
 
 
